@@ -1,0 +1,17 @@
+Analyze the following cybersecurity threat and return ONLY valid JSON.
+
+Threat:
+{input}
+
+Instructions:
+- Do NOT include any text outside JSON
+- Do NOT include markdown
+- Always return valid JSON
+- Fill all fields
+
+Output:
+{
+  "summary": "",
+  "risk_level": "Low | Medium | High | Critical",
+  "impact": ""
+}
